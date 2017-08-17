@@ -1,0 +1,9 @@
+site_name: IEEE UFABC
+pages:
+  - "Home": "index.md"
+theme: readthedocs
+extra_javascript:
+  - extra.js
+extra_css:
+  - extra.css
+repo_url: https://github.com/AdsonBatista/IEEE-UFABC
