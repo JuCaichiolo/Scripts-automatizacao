@@ -1,9 +1,9 @@
-site_name: IEEE UFABC
+site_name: Scripts IEEE UFABC
 pages:
-  - "Home": "index.md"
+  - "Início": "index.md"
 theme: readthedocs
 extra_javascript:
   - extra.js
 extra_css:
   - extra.css
-repo_url: https://github.com/AdsonBatista/IEEE-UFABC
+repo_url: https://github.com/AdsonBatista/Scripts-automatizacao
