@@ -2,9 +2,9 @@ site_name: Scripts IEEE UFABC
 pages:
   - "Início": "index.md"
   - Scripts:
-    - "Movimentações": "movimentacoes.md"
-    - "Recibos": "recibos.md" 
-    - "Agenda": "agenda.md" 
+    - "Movimentações": "Scripts/movimentacoes.md"
+    - "Recibos": "Scripts/recibos.md" 
+    - "Agenda": "Scripts/agenda.md" 
 theme: readthedocs
 extra_javascript:
   - extra.js
