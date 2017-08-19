@@ -5,7 +5,7 @@
 layout: page
 title: Script Agenda
 menu: Agenda
-parent: Scripts.md
+parent: scripts.md
 weight: 0
 ---
 

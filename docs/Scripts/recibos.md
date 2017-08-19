@@ -5,7 +5,7 @@
 layout: page
 title: Script Recibos
 menu: Recibos
-parent: Scripts.md
+parent: scripts.md
 weight: 2
 ---
 
