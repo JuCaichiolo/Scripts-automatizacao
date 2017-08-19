@@ -3,7 +3,8 @@
 # Edit theme's home layout instead if you wanna make some changes
 # See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 layout: page
-title: Movimentação
+title: Script Agenda
+menu: Movimentação
 parent: Scripts.md
 weight: 1
 ---
