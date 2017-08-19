@@ -13,11 +13,11 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: MaterialDocs
-email: hello@chromaticaldesign.com
-description: A demo site for the Jekyll MaterialDocs theme.
-baseurl: "/jekyll-materialdocs" # the subpath of your site, e.g. /blog
-url: "https://chromatical.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+title: Scripts de Automatização
+email: adson.batista@live.com
+description: Scripts para o ramo estudantil IEEE UFABC
+baseurl: "/Scripts-automatizacao" # the subpath of your site, e.g. /blog
+url: "https://adsonbatista.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 highlight: rouge
 copyright: James King
 # Build settings
