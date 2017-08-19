@@ -26,9 +26,3 @@ theme: jekyll-materialdocs
 exclude:
   - Gemfile
   - Gemfile.lock
-  - child-pages.md
-  - code-highlighting.md
-  - custom-menu-text.d
-  - features.md
-  - installing.md
-  - weighted-menus.md

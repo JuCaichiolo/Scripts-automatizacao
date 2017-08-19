@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Script Recibos
-menu: Recibos
+title: ChangeLog Script Recibos
+menu: ChangeLog Recibos
 parent: scripts.md
 weight: 2
 ---
@@ -17,11 +17,11 @@ Suas funções são:
   - Os dados são organizados em uma Planilha no próprio Google
 - Enviar um e-mail para a pessoa efetuou o pagamento e um para o Ramo Estudantil como backup.
 
-## Todo V-1:
+## Todo:
 
 ---------------------------------------------------------------------------
 
-*Versão atual: Beta 5*
+*Versão atual: 0.3.x *
 
 ---------------------------------------------------------------------------
 
@@ -29,6 +29,7 @@ Suas funções são:
 - [ ] Trocar as cores do formulário - Verificar necessidade. 
 
 ---------------------------------------------------------------------------
+
 - [ ] Separar corpo do e-mail em um arquivo diferente.
 - [ ] Melhorar texto corpo do e-mail.
 - [ ] Fazer assinatura do Ramo no e-mail - mail_template.html - V1.0
@@ -48,19 +49,20 @@ Suas funções são:
 ### Melhorias Programadas
 
 - [ ] Separação do código em funções.
+
 ---------------------------------------------------------------------------
 
 ## Controle de versões
 
-### **Alpha**
+### **0.0.5**
 
 - [x] Definição dos campos do formulário e funcionamento dos mesmos.
 
-### **Beta 1**
+### **0.1.0**
 - [x] Definições das Expressões regulares de verificação.
 - [x] Criação do modelo de recibo.
 
-### **Beta 2**
+### **0.2.0**
 
 - [x] Definir padrão do nome do arquivo. (verificar código)
 
@@ -78,17 +80,17 @@ yy - ano da mov
   - [x] Formatação do CPF. (Obrigado Junior Campos!)
   - [x] Transcrição do valor do recibo.
 
-### **Beta 3**
+### **0.3.0**
 
 - [x] Criação do ID do recibo
 - [x] Acrecentado do ID do recibo no recibo.
 
-### **Beta 4**
+### **0.3.13**
 
 - [x] Limpeza dos códigos.
 - [x] Comentar procedimentos.
 
-### **Beta 5**
+### **0.3.22**
 
 - [x] Correção de Bugs
 - [x] Melhorias no Recibo

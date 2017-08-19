@@ -1,12 +1,12 @@
 ---
 layout: page
-title: Script Agenda
-menu: Movimentação
+title: ChangeLog Script de Movimentações Financeiras
+menu: ChangeLog Movimentações
 parent: scripts.md
 weight: 1
 ---
 
-# Movimentação
+# Movimentações 
 
 Este é um Google App votado para movimentações financeiras gerais do Ramo Estudantil IEEE UFABC. Ele faz parte de um processo de automatização financeira que está sendo desenvolvido.
 
@@ -17,11 +17,11 @@ Suas funções são:
 - Enviar um e-mail para a pessoa que submeteu o documento e para o Ramo Estudantil avisando que algo foi submetido.
   - O link do arquivo é fornecido via e-mail.
 
-## Todo V1:
+## Todo:
 
 ---------------------------------------------------------------------------
 
-*Versão atual: RC1*
+*Versão atual: 0.9.0*
 
 ---------------------------------------------------------------------------
 
@@ -29,13 +29,13 @@ Suas funções são:
 
 ---------------------------------------------------------------------------
 
-- [ ] Trocar as cores do formulário - mov_form.html - V1.0
-- [ ] Definir e corrigir os links do botão flutuante - mov_form.html - V1.0
+- [ ] Trocar as cores do formulário - mov_form.html
+- [ ] Definir e corrigir os links do botão flutuante - mov_form.html
 
 ---------------------------------------------------------------------------
 
-- [ ] Corrigir corpo do e-mail - mail_template.html - V1.0
-- [ ] Fazer assinatura do Ramo no e-mail - mail_template.html - V1.0
+- [ ] Corrigir corpo do e-mail - mail_template.html
+- [ ] Fazer assinatura do Ramo no e-mail - mail_template.html 
   - [x] Deixar uma pasta publica no Google Drive 
   - [x] Adicionar a imagem e o link para assinatura
   - [ ] Encontrar tutorial para montar assinatura
@@ -45,12 +45,12 @@ Suas funções são:
 
 ---------------------------------------------------------------------------
 
-- [ ] Fazer documentação para modificação - Novo arquivo - 1.0
-- [ ] Fazer documentação de uso - Novo arquivo - 1.0
+- [ ] Fazer documentação para modificação - Novo arquivo
+- [ ] Fazer documentação de uso - Novo arquivo 
 
 ---------------------------------------------------------------------------
 
-### V2.X
+### Melhorias Programadas
 - [ ] **Adicionar Transação de Transferência**
   - [ ] Ocultar campo de Upload
   - [ ] Trocar campo unidade por unidade de Saída
@@ -67,23 +67,24 @@ Suas funções são:
   - [ ] Definir formatação das células
 ---------------------------------------------------------------------------
 
-### Melhorias Programadas
+### Possiveis otimizações
 
 - [ ] Separação do código em funções.
+
 ---------------------------------------------------------------------------
 
 ## Controle de versões
 
-### **Alpha**
+### **0.0.1**
 
 - [x] Definição dos campos do formulário e funcionamento dos mesmos.
 
-### **Beta 1**
+### **0.1.0**
 - [x] Troca do Theme para materializecss.
 - [x] Melhorias Visuais.
 - [x] Adicionar suporte a arquivos de câmera de celular.
 
-### **Beta 2**
+### **0.2.0**
 
 - [x] Renomear arquivo automaticamente.
 
@@ -95,42 +96,42 @@ t - entrada ou saída
 yy - ano da mov
 ```
 
-### **Beta 3**
+### **0.3.0**
 
 - [x] Implementar boas práticas no código - mov_code.gs.
 - [x] Reorganização do algorítimo - mov_code.gs.
 
-### **Beta 4**
+### **0.4.0**
 
 - [x] Fazer laço if para cada capitulo - mov_code.gs.
 
-### **Beta 5**
+### **0.4.25**
 
 - [x] Melhorar visualização do valor financeiro nos textos.
 - [x] Revisar e comentar código.
 - [x] Limpeza e organização do código.
 
-### **Beta 6**
+### **0.4.30**
 
 - [x] Modificar o nome das variáveis no html e no código.
 
-### **Beta 7**
+### **0.5.0**
 
 - [x] Fazer corpo html em arquivo separado - mov_code.gs.
 - [x] Criação do arquivo - mail_template.html.
 
-### **Beta 8**
+### **0.6.0**
 
 - [x] Eliminados dos scripts inutilizáveis - javaScript.html.
 - [x] Atualizadas css do tema - mov_form.html.
 - [x] Atualizadas js do tema - javaScript.html.
 - [x] Adicionado Envio apenas se todas questões preenchidas.
 
-### **Beta 9**
+### **0.7.0**
 
 - [x] Responsividade no formulário.
 
-### **Beta 10**
+### **0.8.0**
 
 - [x] Hiperlinks nos arquivos de mail_template.html e Mov_thanks.html - Email e url.
 - [x] Troca do botão type=submit para type=button - mov_form.html - Para evitar criação nova aba.
@@ -138,11 +139,11 @@ yy - ano da mov
 - [x] Remoção de função desnecessária - JavaScript.html.
 - [x] Modificação na permissão da URL - mov_code.gs - agora visualização.
 
-### **Beta 11** 
+### **0.8.10** 
 
 - [x] 1 correção ortográfica - Código completo e comentários. (Obrigado Juh!)
 
-### **Beta 12**
+### **0.9**
 
 - [x] Limpeza dos códigos - Todos arquivos.
 - [x] Comentar procedimentos - Todos arquivos .

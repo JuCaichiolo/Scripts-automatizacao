@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Script Agenda
-menu: Agenda
+title: ChangeLog Script Agenda
+menu: ChangeLog Agenda
 parent: scripts.md
 weight: 0
 ---
@@ -14,11 +14,11 @@ Suas funções são:
 - Enviar solicitação de reserva da Salinha do IEEE.
 - Criar dados de solicitação da Salinha.
 
-## Todo V-1:
+## Todo:
 
 ---------------------------------------------------------------------------
 
-*Versão atual: Beta 2*
+*Versão atual: 0.1.X*
 
 ---------------------------------------------------------------------------
 
@@ -51,17 +51,22 @@ Suas funções são:
 
 ## Controle de versões
 
-### **Alpha**
+### **0.0.1**
 
 - [x] Definição dos campos do formulário e funcionamento dos mesmos.
 
-### **Beta 1**
+### **0.1.0**
 
 - [x] Criação do script.
+      - [x] Evento é marcado no calendário assim que o formulário foi enviado.
 
-### **Beta 2**
+### **0.2.0**
 
 - [x] Comentários do script.
-- [x] Melhorias no script.
-  - [x] Correção do "if" de verificação.
+
+- [x] Autorização de um operador é necessária para que o script
+  faça o agendamento. 
+
+### **0.2.12**
+  - [x] Correção do "if" de verificação de dados - agora não é necessario deletar os eventos..
 
