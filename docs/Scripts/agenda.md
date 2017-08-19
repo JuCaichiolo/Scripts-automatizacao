@@ -1,3 +1,12 @@
+---
+# You don't need to edit this file, it's empty on purpose.
+# Edit theme's home layout instead if you wanna make some changes
+# See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
+layout: page
+title: Agenda
+parent: Scripts.md
+weight: 0
+---
 # Agenda
 
 Este é um Google Script voltado para agendamento da Salinha do IEEE UFABC. Ele faz parte de um processo de automatização que está sendo desenvolvido.

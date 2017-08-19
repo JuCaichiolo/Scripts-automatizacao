@@ -1,14 +1,13 @@
 # coding: utf-8
 
 Gem::Specification.new do |spec|
-  spec.name          = "jekyll-materialdocs"
-  spec.version       = "1.0.1"
-  spec.authors       = ["James King"]
-  spec.email         = ["hello@chromaticaldesign.com"]
+  spec.name          = "Scripts de Automatização IEEE UFABC"
+  spec.version       = "0.1.X"
+  spec.authors       = ["Adson Batista"]
+  spec.email         = ["adson.batista@live.com.com"]
 
-  spec.summary       = "MaterialDocs is a material two-column Jekyll theme designed for documentation websites."
+  spec.summary       = "Google Scripts para automatização de processos do Ramo estudantil do IEEE UFABC."
   spec.homepage      = "https://adsonbatista.github.io/Scripts-automatizacao/"
-  spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0").select { |f| f.match(%r{^(_layouts|_includes|LICENSE|README)}i) }
 

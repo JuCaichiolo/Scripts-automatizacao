@@ -1,3 +1,13 @@
+---
+# You don't need to edit this file, it's empty on purpose.
+# Edit theme's home layout instead if you wanna make some changes
+# See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
+layout: page
+title: Movimentação
+parent: Scripts.md
+weight: 1
+---
+
 # Movimentação
 
 Este é um Google App votado para movimentações financeiras gerais do Ramo Estudantil IEEE UFABC. Ele faz parte de um processo de automatização financeira que está sendo desenvolvido.
