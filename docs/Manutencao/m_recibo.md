@@ -1,7 +1,7 @@
 ---
 layout: page
-title: ChangeLog Script Agenda
-menu: ChangeLog Agenda
+title:Recibo
+menu: Criação recibo
 parent: scripts.md
 weight: 4
 ---
