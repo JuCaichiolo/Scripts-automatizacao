@@ -2,7 +2,7 @@
 layout: page
 title: Recibo
 menu: Criação recibo
-parent: scripts.md
+parent: Manutencao.md
 weight: 4
 ---
 
