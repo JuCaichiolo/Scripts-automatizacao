@@ -5,7 +5,7 @@ pages:
     - "Movimentações": "Scripts/movimentacoes.md"
     - "Recibos": "Scripts/recibos.md" 
     - "Agenda": "Scripts/agenda.md" 
-theme: readthedocs
+theme: jekyll-materialdocs
 extra_javascript:
   - extra.js
 extra_css:
