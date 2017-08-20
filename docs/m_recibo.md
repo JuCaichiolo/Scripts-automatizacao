@@ -5,6 +5,7 @@ menu: Recibo
 parent: Manutencao.md
 weight: 0
 ---
+{% include toc %}
 
 # Estrutura do Documento
 
