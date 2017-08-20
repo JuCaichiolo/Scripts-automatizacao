@@ -1,6 +1,6 @@
 ---
 layout: page
-title:Recibo
+title: Recibo
 menu: Criação recibo
 parent: scripts.md
 weight: 4
