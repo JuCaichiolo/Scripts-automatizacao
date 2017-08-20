@@ -19,7 +19,7 @@ description: Scripts para o ramo estudantil IEEE UFABC
 baseurl: "/Scripts-automatizacao" # the subpath of your site, e.g. /blog
 url: "https://adsonbatista.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 highlight: rouge
-copyright: James King
+copyright: Adson Batista
 # Build settings
 markdown: kramdown
 theme: jekyll-materialdocs

@@ -88,12 +88,13 @@ Suas funções são:
 
 - [x] Renomear arquivo automaticamente.
 
-```O Nome do arquivo CPmmT0000yy
+```O Nome do arquivo CPmm0000yyTK
 CP - unidade em código numérico
 mm - mês da movimentação
-t - entrada ou saída
 0000 - numero da mov
 yy - ano da mov
+t - entrada ou saída
+K - Movimentação, Recibo, Transferência
 ```
 
 ### **0.3.0**
