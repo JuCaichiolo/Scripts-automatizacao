@@ -1,9 +1,9 @@
 ---
 layout: page
 title: Recibo
-menu: Criação recibo
+menu: Recibo
 parent: Manutencao.md
-weight: 4
+weight: 0
 ---
 
 # Estrutura do Documento
