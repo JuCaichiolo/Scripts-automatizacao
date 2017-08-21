@@ -16,11 +16,15 @@ Este campo é um campo de validação necessário para garantir que apenas membr
 
 !!! note  ""
 	Titulo do campo: Senha de acesso.
+
 	Tipo de campo: Resposta curta
+
 	Validada por uma expressão regular* do tipo: 
+
 	​```spreadsheet
 	^suasenha$
 	​```
+    
 	Mensagem de aviso em caso de erro: Senha inválida!
 
 Para modificar a senha você deve moficar a parte textual do validador. Os simbolos `^` e `$` são comandos da expressão regular. No exemplo da figura a o usuário deve escrever "suasenha" para conseguir validar a resposta.
