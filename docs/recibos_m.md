@@ -673,3 +673,19 @@ Está função é a função que trata os dados do formulário para gerar o reci
     ```
 
 ##### Acessando os documentos necessários.
+
+A primeira coisa que devemos fazer em nossa função é definir quais são os documentos que vamos utilizar durante o processo.
+
+Crio 3 variáveis a primeira delas é `recibotemplateId` contem o Id uníco de um do meu arquivo de template criado anteriomente. As variáveis `ss` e `sheet` pegam a planilha ativa e selecionam respectivamente as pastas de trabalho "Recibos" e "Pasta adm". 
+
+Ou seja quando eu chamar a variavel `ss` ou `sheet` eu estou chamando abrindo essa pasta de trabalho.
+
+``` js
+    var recibotemplateId = "14Zlj5zwYyWHhAUnBG9dMFYTzeClIa_xvayxJsB8k_Os"
+    var ss = SpreadsheetApp.getActiveSpreadsheet().getSheetByName("Recibos")
+    var sheet = SpreadsheetApp.getActiveSpreadsheet().getSheetByName("Pasta adm")
+```
+
+!!! note ""
+    No nosso caso pegar uma planilha ativa é um metódo funcional, pois o Google Form ativa uma planilha para escrever os dados quando recebe os dados e nos estaremos utilizando justamente essa planilha para trabalhar com os dados.
+
