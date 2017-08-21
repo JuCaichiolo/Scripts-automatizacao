@@ -27,10 +27,11 @@ Para modificar a senha você deve moficar a parte textual do validador. Os simbo
 ### Referente à:
 Neste Campo selecionarei o motivo gerador do recibo, ou seja o que o destinatário do recibo está adquirindo. 
 
-```
+!!! note
+
 Titulo do campo: Referente à (ao):
 Tipo de campo: Lista suspensa
-```
+
 
 Para adicionar um campo basta digitar o produto na linha "Adicionar opção". É importante que o texto escrito neste campo faça sentido quando se ler a segunte frase ".... referente a(o) **OPÇÃO**". Para remover um campo basta clicar no "X" que está à direita. Na figura abaixo é possivel visualizar estas ações.
 
