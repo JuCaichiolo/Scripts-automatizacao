@@ -1,11 +1,3 @@
----
-layout: page
-title: ChangeLog Script de Movimentações Financeiras
-menu: ChangeLog Movimentações
-parent: scripts.md
-weight: 1
----
-
 # Movimentações 
 
 Este é um Google App votado para movimentações financeiras gerais do Ramo Estudantil IEEE UFABC. Ele faz parte de um processo de automatização financeira que está sendo desenvolvido.

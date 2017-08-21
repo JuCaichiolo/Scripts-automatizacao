@@ -1,15 +1,6 @@
----
-# You don't need to edit this file, it's empty on purpose.
-# Edit theme's home layout instead if you wanna make some changes
-# See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-layout: page
-title: Contextualização
-weight: 0
----
-
 Se você caiu de paraquedas aqui e não tem ideia do que é o IEEE UFABC ou o que são e o porque dos scripts Leia essa página.
 
-# O IEEE UFABC?
+## O IEEE UFABC?
 
 IEEE UFABC, lê-se "i três é UFABC", o nome mais conhecido da Ramo Estudantil do IEEE na Universidade Federal do ABC (UFABC), que é uma entidade estudantil voltada para o Desenvolvimento Profissional segundo a Resolução Consuni 143, de 10 de outubro de 2014 que reconhece e classifica institucionalmente as entidades estudantis e comunitárias na UFABC.
 
@@ -21,7 +12,7 @@ Os Ramos Estudantis (ou Student Branches) do Instituto de Engenheiros Eletricist
 - Desenvolvimento de liderança, relacionamento interpessoal e trabalho em equipe;
 - Desenvolvimento de projetos sem fins lucrativos com parcerias de empresas e Instituições objetivando beneficiar a sociedade acadêmica.
 
-# Projeto de Automatização de Processos.
+## Projeto de Automatização de Processos.
 
 No final do ano de 2014 foi o ano em que a UFABC iniciou o processo de legitimação das Entidades Estudantis, em 2016 a Portaria da Reitoria nº 430, de 19 de outubro de 2016, que regulamenta as responsabilidades das Entidades Estudantis Profissionais e Empreendedoras (EEPEs) vinculadas à UFABC, foi homologada o que dentre outras coisas permitiu que um grupo de Entidades Estudantis tenha o direito de  movimentações financeiras (venda) dentro de terreno da universidade. O conjunto de normativas da UFABC exigem que para continuar sendo uma Entidade Estudantil Reconhecida institucionalmente que dentre outras coisas seja emitido um Relatório Anual de Atividades e também Relatório Financeiro Anual. 
 

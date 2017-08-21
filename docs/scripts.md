@@ -1,12 +1,3 @@
----
-# You don't need to edit this file, it's empty on purpose.
-# Edit theme's home layout instead if you wanna make some changes
-# See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-layout: page
-title: Scripts
-weight: 1
----
-
 # Scripts 
 
 Atualmente os scripts desenvolvidos ou em desenvolvimento podem ser dividios em **Projetos Internos**, aqueles voltados para administração do ramo, e **Projetos Derivados**, aqueles que foram adptados para o uso em outros locais, os projetos conhecidos são listados abaixo.

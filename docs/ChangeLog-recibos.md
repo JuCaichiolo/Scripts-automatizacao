@@ -1,11 +1,3 @@
----
-layout: page
-title: ChangeLog Script Recibos
-menu: ChangeLog Recibos
-parent: scripts.md
-weight: 2
----
-
 # Recibos
 
 Este é um Google Script voltado para emissão de recibos gerais do Ramo Estudantil IEEE UFABC. Ele faz parte de um processo de automatização financeira que está sendo desenvolvido.
