@@ -26,10 +26,14 @@ extra:
 markdown_extensions:
   - markdown.extensions.admonition
   - markdown.extensions.codehilite(guess_lang=false)
+  - markdown.extensions.attr_list
   - markdown.extensions.def_list
   - markdown.extensions.footnotes
   - markdown.extensions.meta
   - markdown.extensions.toc(permalink=true)
+  - markdown.extensions.tables
+  - markdown.extensions.abbr
+  - markdown.extensions.smarty
   - pymdownx.arithmatex
   - pymdownx.betterem(smart_enable=all)
   - pymdownx.caret
@@ -42,7 +46,8 @@ markdown_extensions:
   - pymdownx.tasklist(custom_checkbox=true)
   - pymdownx.tilde
   - pymdownx.details
-
+  - pymdownx.extrarawhtml
+  - pymdownx.progressbar
 pages:
   - Início: index.md
   - Scripts: scripts.md
@@ -64,7 +69,6 @@ pages:
       - ChangeLog: agenda_c.md 
 
 extra_css:
-  - extra.css
-extra_js:
-  - extra.js
-
+  - extra-9b4c72abee.css
+extra_javascript:
+  - extra-449b50d2b3.js
