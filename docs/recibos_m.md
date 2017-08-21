@@ -1,8 +1,6 @@
 # Estrutura do Documento
 Para o devido funcionamento deste script é necessario de 4 arquivos:
 
-
-
  * Uma "Formulário Google". - Ele servirá de entrada de dados do sistema é o unico "arquivo" que o usuário final terá acesso.
  * Uma "Planilha Google" - Ela é seu banco de dados, aqui serão depositadas todas as respostas do seu formulário, é onde serão feitas algumas operações necessarias e o script que fará as funções mais avançadas é criado nesta planilha.
  * Um Script. - Ele é criado diretamente na planilha, ele é responsável pelas interações entre APIs do Google.
@@ -15,8 +13,8 @@ Todos os campos do formulário são de preenchimento obrigatório.
 
 ### Senha de acesso:
 Este campo é um campo de validação necessário para garantir que apenas membros do IEEE possam utilizar o formulário:
+
 !!! note  ""
-​	
 	Titulo do campo: Senha de acesso.
 	Tipo de campo: Resposta curta
 	Validada por uma expressão regular* do tipo: 
