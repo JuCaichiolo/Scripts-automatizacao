@@ -29,6 +29,7 @@ Neste Campo selecionarei o motivo gerador do recibo, ou seja o que o destinatár
 
 !!! note
 	Titulo do campo: Referente à (ao):
+	
 	Tipo de campo: Lista suspensa
 
 
