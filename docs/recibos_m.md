@@ -266,7 +266,7 @@ pad(6,4)
 
 Escreve um número por extenso em português.
 
-???+ summary "Abra o código"
+???+ note "Abra o código"
     ```js
     function Extenso(n, moeda, moedas, centavo, centavos) {
     var j, x, m, r, ri, rd, d, i, casas, erro;
