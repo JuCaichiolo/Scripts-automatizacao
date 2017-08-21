@@ -27,7 +27,7 @@ Para modificar a senha você deve moficar a parte textual do validador. Os simbo
 ### Referente à:
 Neste Campo selecionarei o motivo gerador do recibo, ou seja o que o destinatário do recibo está adquirindo. 
 
-!!! note
+!!! note  ""
 	Titulo do campo: Referente à (ao):
 	
 	Tipo de campo: Lista suspensa
@@ -40,10 +40,11 @@ Para adicionar um campo basta digitar o produto na linha "Adicionar opção". É
 ### Unidade Responsável:
 Campo em que é será selecionada a unidade que está recebendo do dinheiro referente ao recibo.
 
-```
-Titulo do campo: Unidade Responsável:
-Tipo de campo: Lista suspensa
-```
+!!! note  ""
+	Titulo do campo: Unidade Responsável:
+	
+	Tipo de campo: Lista suspensa
+
 
 Para adicionar um campo basta digitar o produto na linha "Adicionar opção". É de extrema importência que utilizem apenas as siglas da unidade para referenciar ela. Para remover um campo basta clicar no "X" que está à direita. 
 
@@ -51,10 +52,11 @@ Para adicionar um campo basta digitar o produto na linha "Adicionar opção". É
 
 Local onde deverá ser preenchido o nome completo da pessoa que receberá o recibo.
 
-```
-Titulo do campo: Come completo.
-Tipo de campo: Resposta curta
-```
+!!! note  ""
+	Titulo do campo: Come completo.
+	
+	Tipo de campo: Resposta curta
+
 
 ![nomecompleto](https://drive.google.com/uc?id=0B8CcpExpMKFlOUROVVB0cXhReUk)
 
@@ -63,13 +65,17 @@ Tipo de campo: Resposta curta
 
 Campo para registro dos numéros do CPF da pessoa que adquiriu que receberá o recibo.
 
-```markdown
-Titulo do campo: CPF.
-Tipo de campo: Resposta curta
-Descrição: Insira apenas os números CPF.
-Validada por uma expressão regular do tipo: correspondente à `([0-9]{11})` 
-Mensagem de aviso em caso de erro: Formato de CPF inválido!
-```
+!!! note  ""
+	Titulo do campo: CPF.
+	
+	Tipo de campo: Resposta curta
+	
+	Descrição: Insira apenas os números CPF.
+	
+	Validada por uma expressão regular do tipo: correspondente à `([0-9]{11})` 
+	
+	Mensagem de aviso em caso de erro: Formato de CPF inválido!
+
 
 ![CPF](https://drive.google.com/uc?id=0B8CcpExpMKFlVl9hem5YSkQ2VVk)
 
@@ -79,13 +85,17 @@ A expressão regular me diz para escrever 11 digitos numéricos qualquer coisa d
 
 Este campo é onde devemos digitar o valor do recibo.
 
-```
-Titulo do campo: Valor pago em Reais.
-Tipo de campo: Resposta curta
-Descrição: Valor deve ser dado em Reais e sempre positivo. Caso necessário, utilize o separador ponto. Se o evento for gratuito, digite 0.
-Validada por uma expressão regular* do tipo: correspondente à ^([1-9]{1}[\d]{0,2}(\.[\d]{2})*(\.[\d]{0,2})?|[1-9]{1}[\d]{0,}(\.[\d]{0,2})?|0(\.[\d]{0,2})?|(\.[\d]{1,2})?)$
-Mensagem de aviso em caso de erro: Utilize o padrão 00.00
-```
+!!! note  ""
+	Titulo do campo: Valor pago em Reais.
+	
+	Tipo de campo: Resposta curta
+	
+	Descrição: Valor deve ser dado em Reais e sempre positivo. Caso necessário, utilize o separador ponto. Se o evento for gratuito, digite 0.
+	
+	Validada por uma expressão regular* do tipo: correspondente à `^([1-9]{1}[\d]{0,2}(\.[\d]{2})*(\.[\d]{0,2})?|[1-9]{1}[\d]{0,}(\.[\d]{0,2})?|0(\.[\d]{0,2})?|(\.[\d]{1,2})?)$`
+	
+	Mensagem de aviso em caso de erro: Utilize o padrão 00.00
+
 
 ![valor](https://drive.google.com/uc?id=0B8CcpExpMKFlZkloaGN4bHpJdjQ)
 
@@ -94,13 +104,17 @@ A expressão regular deste campo me permite digitar numeros de até duas casas d
 ### E-mail
 Campo para o E-mail da pessoa que receberá o recibo.
 
-```
-Titulo do campo: E-mail.
-Tipo de campo: Resposta curta
-Descrição: Insira o e-mail para o qual o recibo será enviado.
-Validada por uma expressão regular* do tipo: correspondente à [a-zA-Z0-9_\.\+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-\.]+
-Mensagem de aviso em caso de erro: Digite um e-mail válido.
-```
+!!! note  ""
+	Titulo do campo: E-mail.
+	
+	Tipo de campo: Resposta curta
+	
+	Descrição: Insira o e-mail para o qual o recibo será enviado.
+
+	Validada por uma expressão regular* do tipo: correspondente à `[a-zA-Z0-9_\.\+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-\.]+`
+
+	Mensagem de aviso em caso de erro: Digite um e-mail válido.
+
 
 ![email](https://drive.google.com/uc?id=0B8CcpExpMKFlQ3BnWlFVRU4yNmM)
 
