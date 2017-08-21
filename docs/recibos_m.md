@@ -475,7 +475,10 @@ Extenso(105)
 ```
 
 #### Funções principal do meu programa
-???+ note "Abra para ver o código da função"
+
+Está função é a função que trata os dados do formulário para gerar o recibo e enviar suas copias para o destinatário e para uma pasta do driver. Por ela ser uma funçao muito grande irei fragmenta-lá e explicar a passo como construir ela.
+
+???+ note "Abra para ver o código da função completo"
     ``` js
     function send_Rec_Email() {
         // ID do modelo recibo no Google Docs
@@ -668,3 +671,5 @@ Extenso(105)
         DriveApp.getFileById(idCopia).setTrashed(true);
     }
     ```
+
+##### Acessando os documentos necessários.
