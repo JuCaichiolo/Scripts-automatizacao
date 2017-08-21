@@ -21,14 +21,15 @@ Este campo é um campo de validação necessário para garantir que apenas membr
 
 	Validada por uma expressão regular* do tipo: 
 
-	​``` spreadsheet
+	​``` 
 	^suasenha$
 	​```
     
 	Mensagem de aviso em caso de erro: Senha inválida!
 
 Para modificar a senha você deve moficar a parte textual do validador. Os simbolos `^` e `$` são comandos da expressão regular. No exemplo da figura a o usuário deve escrever "suasenha" para conseguir validar a resposta.
-[![Material for MkDocs](imagens/Recibos/cr_senha.png)](imagens/Recibos/cr_senha.png)
+
+[![rescibossenha](imagens/Recibos/cr_senha.png)](imagens/Recibos/cr_senha.png)
 
 
 ### Referente à:
@@ -42,7 +43,7 @@ Neste Campo selecionarei o motivo gerador do recibo, ou seja o que o destinatár
 
 Para adicionar um campo basta digitar o produto na linha "Adicionar opção". É importante que o texto escrito neste campo faça sentido quando se ler a segunte frase ".... referente a(o) **OPÇÃO**". Para remover um campo basta clicar no "X" que está à direita. Na figura abaixo é possivel visualizar estas ações.
 
-![referentea](https://drive.google.com/uc?id=0B8CcpExpMKFlZmROSmNpTjFZZjg)
+[![referentea](imagens/Recibos/cr_referentea.png)](imagens/Recibos/cr_referentea.png)
 
 ### Unidade Responsável:
 Campo em que é será selecionada a unidade que está recebendo do dinheiro referente ao recibo.
@@ -64,9 +65,7 @@ Local onde deverá ser preenchido o nome completo da pessoa que receberá o reci
 
 	Tipo de campo: Resposta curta
 
-
-![nomecompleto](https://drive.google.com/uc?id=0B8CcpExpMKFlOUROVVB0cXhReUk)
-
+[![nome](imagens/Recibos/cr_nome.png)](imagens/Recibos/cr_nome.png)
 
 ### CPF
 
@@ -81,14 +80,13 @@ Campo para registro dos numéros do CPF da pessoa que adquiriu que receberá o r
 
 	Validada por uma expressão regular do tipo: correspondente à:
 
-	​``` spreadsheet
+	​``` 
 	([0-9]{11})
 	​``` 
 	
 	Mensagem de aviso em caso de erro: Formato de CPF inválido!
 
-
-![CPF](https://drive.google.com/uc?id=0B8CcpExpMKFlVl9hem5YSkQ2VVk)
+[![CPF](imagens/Recibos/cr_CPF.png)](imagens/Recibos/cr_CPF.png)
 
 A expressão regular me diz para escrever 11 digitos numéricos qualquer coisa diferente disso ela me retornará a mensagem de erro.
 
@@ -105,14 +103,13 @@ Este campo é onde devemos digitar o valor do recibo.
 
 	Validada por uma expressão regular* do tipo: correspondente à:
 
-	​``` spreadsheet
+	​``` 
 	^([1-9]{1}[\d]{0,2}(\.[\d]{2})*(\.[\d]{0,2})?|[1-9]{1}[\d]{0,}(\.[\d]{0,2})?|0(\.[\d]{0,2})?|(\.[\d]{1,2})?)$
 	​```
 	
 	Mensagem de aviso em caso de erro: Utilize o padrão 00.00
 
-
-![valor](https://drive.google.com/uc?id=0B8CcpExpMKFlZkloaGN4bHpJdjQ)
+[![valor](imagens/Recibos/cr_valor.png)](imagens/Recibos/cr_valor.png)
 
 A expressão regular deste campo me permite digitar numeros de até duas casas decimais separados por ponto.
 
@@ -128,49 +125,49 @@ Campo para o E-mail da pessoa que receberá o recibo.
 
 	Validada por uma expressão regular* do tipo: correspondente à:
 
-	​``` spreadsheet
+	​``` 
 	[a-zA-Z0-9_\.\+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-\.]+
 	​```
 	
 	Mensagem de aviso em caso de erro: Digite um e-mail válido.
 
-
-![email](https://drive.google.com/uc?id=0B8CcpExpMKFlQ3BnWlFVRU4yNmM)
+[![email](imagens/Recibos/cr_email.png)](imagens/Recibos/cr_email.png)
 
 ## A Planilha Google
 
 A planilha de respostas deve ser vinculáda ao formulário! Para fazer isso vá na aba respostas do seu form e clique nos tres pontinhos mostrado na figura abaixo.
 
-![criarplanilha](https://drive.google.com/uc?id=0B8CcpExpMKFldEZhT21yRWl0OFk)
+[![planilhaform](imagens/Recibos/cr_planilhaform.png)](imagens/Recibos/cr_planilhaform.png)
 
 Um menu irá aparecer, selecione a opção "Selecionar destino da resposta". Uma janela semelhante amostrada a baixo apareceu em sua tela crie uma nova planilha ou selecione uma já existente (aconselho criar uma nova planilha).
 
-![criarplanilhamenu](https://drive.google.com/uc?id=0B8CcpExpMKFlUXkxWGlrWW4xbms)
+[![planilhamenu](imagens/Recibos/cr_planilhamenu.png)](imagens/Recibos/cr_planilhamenu.png)
 
 A planilha criada (ou a aba da nova planilha) deve ser assim:
 
-![planilhacriada](https://drive.google.com/uc?id=0B8CcpExpMKFlY0VPNjJ5RUdUejA)
+[![planilhacriada](imagens/Recibos/cr_planilhacriada.png)](imagens/Recibos/cr_planilhacriada.png)
 
 ### Renomeie a pasta de trabalho!
 Troque o nome da sua pasta de trabalho para "Recibos", para fazer isso clique com botão direito sobre o nome da pasta de trabalho e vá em renomear.
 
-![novonomepasta](https://drive.google.com/uc?id=0B8CcpExpMKFlbTBnVjhfZUpObVE)
+[![renomearplanilha](imagens/Recibos/cr_renomearplanilha.png)](imagens/Recibos/cr_renomearplanilha.png)
 
 ### Campo ID
 Vá insira uma nova coluna a esquerda da coluna "A" (clique na celula "A" com botão direito e vá em incerir coluna à esquerda)
 
-![criarcampoID](https://drive.google.com/uc?id=0B8CcpExpMKFlMDFRV0lUbVRVakE)
+[![campoID](imagens/Recibos/cr_campoID.png)](imagens/Recibos/cr_campoID.png)
+
 
 Na nova A1 agora vazia escreva a palavra "ID". Sua nova planilha deve ficar assim:
 
-![resultadocampoID](https://drive.google.com/uc?id=0B8CcpExpMKFlRUJkWFBtX3FlMm8)
+[![resultadocampoID](imagens/Recibos/resultadocampoID.png)](imagens/Recibos/resultadocampoID.png)
 
 ### Data e Hora
 Crie uma nova coluna C de forma que a coluna B seja o "Carimbo de data/hora" e a coluna "D" seja a "Digite a senha de acesso:" na selula B1 digite a segunte formula:
 
-![novacolunaC](https://drive.google.com/uc?id=0B8CcpExpMKFlN2x4RXRBTWdENVE)
+[![novacolunaC](imagens/Recibos/cr_novacolunac.png)](imagens/Recibos/cr_novacolunac.png)
 
-``` spreadsheet
+``` 
 =arrayFormula(SE(LIN(INDIRETO("B1:B" & TEXTO(CONT.VALORES(B:B);"#")))=1;"Data e Hora";TEXTO(DIA(B1:B);"##")&" de "& TEXTO(B1:B;"MMMM")&" de " & ANO(B1:B)&" às "&  TEXTO(HORA(B1:B);"00")&"h"&TEXTO(MINUTO(B1:B);"00")))
 ```
 
@@ -179,12 +176,12 @@ Essa formula é responsabel por retirar pegar da Data da coluna B e transformar 
 ### E-Mail
 O campo E-mail deve estar agora na coluna J. Você vai incerir 4 novas colunas a esqueda deste campo fazendo assim que seu campo e-mail vá para coluna "N".
 
-![novocampoEmail](https://drive.google.com/uc?id=0B8CcpExpMKFlSUhQVEptUjlvRmc)
+[![cr_novocampoemail](imagens/Recibos/cr_novocampoemail.png)](imagens/Recibos/cr_novocampoemail.png)
 
 ### Tipo de Transação
 Na Coluna "J" (que deveria estar vazia) vá até a celula K1 e digite: 
 
-``` spreadsheet
+``` 
 =arrayFormula(IF(ROW(INDIRECT("A1:A" & TEXT(COUNTA(A:A);"#")))=1;"Tipo de transação";"Entrada"))
 ```
 
@@ -194,7 +191,7 @@ Assim para cada valor linha que for preenchida na planilha voce irá dizer que �
 
 Na celula K1 digete a seguinte formula, (a coluna L deve estar vazia)
 
-``` spreadsheet
+``` 
 =query(A:K; "select I where I is not null format I 'R$#####0.00' ";1)
 ```
 
@@ -203,28 +200,27 @@ Ela formata os valores de I (Compo "Valor pago em Reais:" do formulário) para f
 ### Ano
 Na Celula L1 digite a formula abaixo para extrair o ANO em que foi emitido o recibo.
 
-``` spreadsheet
+``` 
 =arrayFormula(IF(ROW(INDIRECT("B1:B" & TEXT(COUNTA(B:B);"#")))=1;"Ano";YEAR(B1:B)))
 ```
 
 ### Mes
 Na Celula M1 digite a formula abaixo para extrair o MES em que foi emitido o recibo.
 
-``` spreadsheet
+``` 
 =arrayFormula(SE(LIN(INDIRETO("B1:B" & TEXTO(CONT.VALORES(B:B);"#")))=1;"Mês";TEXTO(B1:B;"MM")))
 ```
 
 ### Pasta Administrativa
 Crie uma nova Pasta de trabalho e troque seu nome para "Pasta adm". Nesta pasta vá ate A1 e digite Unidade, de A2 até A9 o nome das unidades (Ramo, AESS, CS, CPMT, EMBS, PES, RAS ,TEMS) na celula C1 digite: "Nº de Recibos +1" em C2 copie a seguinte formula:
 
-``` spreadsheet
+``` 
 =CONT.SES(Recibos!F:F;A2;Recibos!L:L;"=2017")+1
 ```
 
 O valor retornado será o número de recibos já emitidos somado a 1. Veja o Exemplo abaixo: Atente-se ao detalhe que que a coluna B está oculta!
 
-![pastaadm](https://drive.google.com/uc?id=0B8CcpExpMKFlYXF6MkNFS3VQalU)
-
+[![pastaAdm](imagens/Recibos/cr_pastaAdm.png)](imagens/Recibos/cr_pastaAdm.png)
 
 ## Doc
 
@@ -268,204 +264,204 @@ pad(6,4)
 // ---------------------------------------------------------------------------
 // Funções para para escrever um número por extenso 
 // ---------------------------------------------------------------------------
+???+ "Abra o código"
+    ```js
+    function Extenso(n, moeda, moedas, centavo, centavos) {
+    var j, x, m, r, ri, rd, d, i, casas, erro;
+    var v1 = 0,
+        v2 = 0,
+        v3 = 0,
+        v4 = 0,
+        v5 = 0,
+        v6 = 0;
+    r = "";
+    rd = "";
+    ri = "";
+    i = parseInt(n);
+    d = n - i;
+    d = d.toFixed(2);
+    d = d * 100;
+    d = d.toFixed(0);
+    casas = i.toString().length;
 
-function Extenso(n, moeda, moedas, centavo, centavos) {
-```js
-var j, x, m, r, ri, rd, d, i, casas, erro;
-var v1 = 0,
-    v2 = 0,
-    v3 = 0,
-    v4 = 0,
-    v5 = 0,
-    v6 = 0;
-r = "";
-rd = "";
-ri = "";
-i = parseInt(n);
-d = n - i;
-d = d.toFixed(2);
-d = d * 100;
-d = d.toFixed(0);
-casas = i.toString().length;
-
-if (n == "?") {
-    return "Função Extenso() Marcelo Camargo - marcelocamargo@gmail.com";
-}
-if (n < 0) {
-    return "Erro: número negativo";
-}
-if (moeda != null) {
-    if (moedas == null || centavo == null || centavos == null || moeda == "" || moedas == "" || centavo == "" || centavos == "") {
-        return "Erro: parâmetros de moeda";
+    if (n == "?") {
+        return "Função Extenso() Marcelo Camargo - marcelocamargo@gmail.com";
     }
-}
-
-if (d == 100) {
-    d = 0;
-    i = i + 1;
-}
-
-if (casas > 12) {
-    v5 = (parseInt(i / 1000000000000) * 1000000000000 - parseInt(i / 1000000000000000) * 1000000000000000) / 1000000000000;
-    if (v5 > 0) {
-        j = "";
-        x = CentenaExtenso(v5);
-        if (v5 > 1) {
-            ri = ri + j + x + " trilhões";
-        } else {
-            ri = ri + j + x + " trilhão";
+    if (n < 0) {
+        return "Erro: número negativo";
+    }
+    if (moeda != null) {
+        if (moedas == null || centavo == null || centavos == null || moeda == "" || moedas == "" || centavo == "" || centavos == "") {
+            return "Erro: parâmetros de moeda";
         }
     }
-}
-if (casas > 9) {
-    v4 = (parseInt(i / 1000000000) * 1000000000 - parseInt(i / 1000000000000) * 1000000000000) / 1000000000;
-    if (v4 > 0) {
-        if (v5) {
-            j = ", ";
-        } else {
+
+    if (d == 100) {
+        d = 0;
+        i = i + 1;
+    }
+
+    if (casas > 12) {
+        v5 = (parseInt(i / 1000000000000) * 1000000000000 - parseInt(i / 1000000000000000) * 1000000000000000) / 1000000000000;
+        if (v5 > 0) {
             j = "";
-        }
-        x = CentenaExtenso(v4);
-        if (v4 > 1) {
-            ri = ri + j + x + " bilhões";
-        } else {
-            ri = ri + j + x + " bilhão";
-        }
-    }
-}
-if (casas > 6) {
-    v3 = (parseInt(i / 1000000) * 1000000 - parseInt(i / 1000000000) * 1000000000) / 1000000;
-    if (v3 > 0) {
-        if (v4 + v5) {
-            j = ", ";
-        } else {
-            j = "";
-        }
-        x = CentenaExtenso(v3);
-        if (v3 > 1) {
-            ri = ri + j + x + " milhões";
-        } else {
-            ri = ri + j + x + " milhão";
-        }
-    }
-}
-if (casas > 3) {
-    v2 = (parseInt(i / 1000) * 1000 - parseInt(i / 1000000) * 1000000) / 1000;
-    if (v2 > 0) {
-        if (v3 + v4 + v5) {
-            j = ", ";
-        } else {
-            j = "";
-        }
-        x = CentenaExtenso(v2);
-        if (v2 == 1) {
-            ri = ri + j + "mil";
-        } else {
-            ri = ri + j + x + " mil";
-        }
-    }
-}
-if (casas > 0) {
-    v1 = (parseInt(i).toFixed(0)) - (parseInt(i / 1000).toFixed(0) * 1000);
-    if (v1 > 0) {
-        if (v2 + v3 + v4 + v5) {
-            if (v1 <= 100) {
-                j = " e ";
+            x = CentenaExtenso(v5);
+            if (v5 > 1) {
+                ri = ri + j + x + " trilhões";
             } else {
+                ri = ri + j + x + " trilhão";
+            }
+        }
+    }
+    if (casas > 9) {
+        v4 = (parseInt(i / 1000000000) * 1000000000 - parseInt(i / 1000000000000) * 1000000000000) / 1000000000;
+        if (v4 > 0) {
+            if (v5) {
                 j = ", ";
+            } else {
+                j = "";
             }
-        } else {
-            j = "";
-        }
-        x = CentenaExtenso(v1);
-        ri = ri + j + x;
-    }
-}
-
-if (moeda == null) {
-    moedas = "reais";
-    moeda = "real";
-    centavos = "centavos";
-    centavo = "centavo";
-}
-if ((d != 0 && moeda == "inteiro") || moeda != "inteiro") {
-    if (i > 0 && !v1) {
-        ri = ri + " de " + moedas;
-    } else if (i > 1 && v1 == 1) {
-        ri = ri + " " + moedas;
-    } else if (v1 == 1) {
-        ri = ri + " " + moeda;
-    } else if (v1 > 1) {
-        ri = ri + " " + moedas;
-    } else if (i == 1) {
-        ri = ri + " " + moeda;
-    }
-}
-
-if (d == 1) {
-    rd = "um " + centavo;
-} else if (d > 1 && d < 100) {
-    rd = CentenaExtenso(d) + " " + centavos;
-}
-if (i < 1 && d > 0 && moeda != "inteiro") {
-    rd = rd + " de " + moeda;
-} else if (i == 0 && d == 0) {
-    rd = "zero " + moeda;
-}
-
-if (d > 0 && i > 0) {
-    rd = " e " + rd;
-}
-
-r = ri + rd;
-return r;
-```
-}
-
-function CentenaExtenso(n) {
-    var u, d, c, casas;
-    var r = "";
-    var t1 = ["um", "dois", "três", "quatro", "cinco", "seis", "sete", "oito", "nove"];
-    var t2 = ["dez", "onze", "doze", "treze", "quatorze", "quinze", "dezesseis", "dezessete", "dezoito", "dezenove"];
-    var t3 = ["vinte", "trinta", "quarenta", "cinquenta", "sessenta", "setenta", "oitenta", "noventa"];
-    var t4 = ["cento", "duzentos", "trezentos", "quatrocentos", "quinhentos", "seiscentos", "setecentos", "oitocentos", "novecentos"];
-    casas = n.toString().length;
-    u = 0;
-    d = 0;
-    c = 0;
-    if (n > 0) {
-        u = parseInt(n.toString().substr(casas - 1, 1));
-    }
-    if (n > 9) {
-        d = parseInt(n.toString().substr(casas - 2, 1));
-    }
-    if (n > 99) {
-        c = parseInt(n.toString().substr(casas - 3, 1));
-    }
-    if (n == 100) {
-        return "cem";
-    } else {
-        if (c > 0) {
-            r = r + t4[c - 1];
-            if (d > 0 || u > 0) {
-                r = r + " e ";
+            x = CentenaExtenso(v4);
+            if (v4 > 1) {
+                ri = ri + j + x + " bilhões";
+            } else {
+                ri = ri + j + x + " bilhão";
             }
         }
-        if (d > 1) {
-            r = r + t3[d - 2];
-            if (u > 0) {
-                r = r + " e ";
+    }
+    if (casas > 6) {
+        v3 = (parseInt(i / 1000000) * 1000000 - parseInt(i / 1000000000) * 1000000000) / 1000000;
+        if (v3 > 0) {
+            if (v4 + v5) {
+                j = ", ";
+            } else {
+                j = "";
             }
-        } else if (d == 1 && u >= 0) {
-            r = r + t2[d + u - 1];
-        }
-        if (u > 0 && d != 1) {
-            r = r + t1[u - 1];
+            x = CentenaExtenso(v3);
+            if (v3 > 1) {
+                ri = ri + j + x + " milhões";
+            } else {
+                ri = ri + j + x + " milhão";
+            }
         }
     }
+    if (casas > 3) {
+        v2 = (parseInt(i / 1000) * 1000 - parseInt(i / 1000000) * 1000000) / 1000;
+        if (v2 > 0) {
+            if (v3 + v4 + v5) {
+                j = ", ";
+            } else {
+                j = "";
+            }
+            x = CentenaExtenso(v2);
+            if (v2 == 1) {
+                ri = ri + j + "mil";
+            } else {
+                ri = ri + j + x + " mil";
+            }
+        }
+    }
+    if (casas > 0) {
+        v1 = (parseInt(i).toFixed(0)) - (parseInt(i / 1000).toFixed(0) * 1000);
+        if (v1 > 0) {
+            if (v2 + v3 + v4 + v5) {
+                if (v1 <= 100) {
+                    j = " e ";
+                } else {
+                    j = ", ";
+                }
+            } else {
+                j = "";
+            }
+            x = CentenaExtenso(v1);
+            ri = ri + j + x;
+        }
+    }
+
+    if (moeda == null) {
+        moedas = "reais";
+        moeda = "real";
+        centavos = "centavos";
+        centavo = "centavo";
+    }
+    if ((d != 0 && moeda == "inteiro") || moeda != "inteiro") {
+        if (i > 0 && !v1) {
+            ri = ri + " de " + moedas;
+        } else if (i > 1 && v1 == 1) {
+            ri = ri + " " + moedas;
+        } else if (v1 == 1) {
+            ri = ri + " " + moeda;
+        } else if (v1 > 1) {
+            ri = ri + " " + moedas;
+        } else if (i == 1) {
+            ri = ri + " " + moeda;
+        }
+    }
+
+    if (d == 1) {
+        rd = "um " + centavo;
+    } else if (d > 1 && d < 100) {
+        rd = CentenaExtenso(d) + " " + centavos;
+    }
+    if (i < 1 && d > 0 && moeda != "inteiro") {
+        rd = rd + " de " + moeda;
+    } else if (i == 0 && d == 0) {
+        rd = "zero " + moeda;
+    }
+
+    if (d > 0 && i > 0) {
+        rd = " e " + rd;
+    }
+
+    r = ri + rd;
     return r;
-}
 
+    }
+
+    function CentenaExtenso(n) {
+        var u, d, c, casas;
+        var r = "";
+        var t1 = ["um", "dois", "três", "quatro", "cinco", "seis", "sete", "oito", "nove"];
+        var t2 = ["dez", "onze", "doze", "treze", "quatorze", "quinze", "dezesseis", "dezessete", "dezoito", "dezenove"];
+        var t3 = ["vinte", "trinta", "quarenta", "cinquenta", "sessenta", "setenta", "oitenta", "noventa"];
+        var t4 = ["cento", "duzentos", "trezentos", "quatrocentos", "quinhentos", "seiscentos", "setecentos", "oitocentos", "novecentos"];
+        casas = n.toString().length;
+        u = 0;
+        d = 0;
+        c = 0;
+        if (n > 0) {
+            u = parseInt(n.toString().substr(casas - 1, 1));
+        }
+        if (n > 9) {
+            d = parseInt(n.toString().substr(casas - 2, 1));
+        }
+        if (n > 99) {
+            c = parseInt(n.toString().substr(casas - 3, 1));
+        }
+        if (n == 100) {
+            return "cem";
+        } else {
+            if (c > 0) {
+                r = r + t4[c - 1];
+                if (d > 0 || u > 0) {
+                    r = r + " e ";
+                }
+            }
+            if (d > 1) {
+                r = r + t3[d - 2];
+                if (u > 0) {
+                    r = r + " e ";
+                }
+            } else if (d == 1 && u >= 0) {
+                r = r + t2[d + u - 1];
+            }
+            if (u > 0 && d != 1) {
+                r = r + t1[u - 1];
+            }
+        }
+        return r;
+    }
+    ```
 // ---------------------------------------------------------------------------
 // Funções principal do meu programa
 // ---------------------------------------------------------------------------
