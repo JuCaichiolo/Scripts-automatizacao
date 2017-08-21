@@ -21,8 +21,8 @@ Mensagem de aviso em caso de erro: Senha inválida!
 ```
 
 Para modificar a senha você deve moficar a parte textual do validador. Os simbolos `^` e `$` são comandos da expressão regular. No exemplo da figura a o usuário deve escrever "suasenha" para conseguir validar a resposta.
+[![Material for MkDocs](imagens/Recibos/cr_senha.png)](imagens/Recibos/cr_senha.png)
 
-![senha](https://drive.google.com/uc?id=0B8CcpExpMKFlZkloaGN4bHpJdjQ)
 
 ### Referente à:
 Neste Campo selecionarei o motivo gerador do recibo, ou seja o que o destinatário do recibo está adquirindo. 
