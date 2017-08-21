@@ -1,9 +1,12 @@
 # Estrutura do Documento
-Para o devido funcionamento deste script é necessario de 4 arquivos
- - Uma "Formulário Google". - Ele servirá de entrada de dados do sistema é o unico "arquivo" que o usuário final terá acesso.
- - Uma "Planilha Google" - Ela é seu banco de dados, aqui serão depositadas todas as respostas do seu formulário, é onde serão feitas algumas operações necessarias e o script que fará as funções mais avançadas é criado nesta planilha.
- - Um Script. - Ele é criado diretamente na planilha, ele é responsável pelas interações entre APIs do Google.
- - Um "Documentos Google". - Ele é o modelo utilizado para gerar o recibo propriamente dito.
+Para o devido funcionamento deste script é necessario de 4 arquivos:
+
+
+
+ * Uma "Formulário Google". - Ele servirá de entrada de dados do sistema é o unico "arquivo" que o usuário final terá acesso.
+ * Uma "Planilha Google" - Ela é seu banco de dados, aqui serão depositadas todas as respostas do seu formulário, é onde serão feitas algumas operações necessarias e o script que fará as funções mais avançadas é criado nesta planilha.
+ * Um Script. - Ele é criado diretamente na planilha, ele é responsável pelas interações entre APIs do Google.
+ * Um "Documentos Google". - Ele é o modelo utilizado para gerar o recibo propriamente dito.
 
 ## O formuário
 
@@ -13,13 +16,13 @@ Todos os campos do formulário são de preenchimento obrigatório.
 ### Senha de acesso:
 Este campo é um campo de validação necessário para garantir que apenas membros do IEEE possam utilizar o formulário:
 !!! note  ""
-	
+​	
 	Titulo do campo: Senha de acesso.
 	Tipo de campo: Resposta curta
 	Validada por uma expressão regular* do tipo: 
-	```spreadsheet
+	​```spreadsheet
 	^suasenha$
-	```
+	​```
 	Mensagem de aviso em caso de erro: Senha inválida!
 
 Para modificar a senha você deve moficar a parte textual do validador. Os simbolos `^` e `$` são comandos da expressão regular. No exemplo da figura a o usuário deve escrever "suasenha" para conseguir validar a resposta.
@@ -75,10 +78,10 @@ Campo para registro dos numéros do CPF da pessoa que adquiriu que receberá o r
 	Descrição: Insira apenas os números CPF.
 
 	Validada por uma expressão regular do tipo: correspondente à 
-	```spreadsheet
+	​```spreadsheet
 	([0-9]{11})
-	``` 
-
+	​``` 
+	
 	Mensagem de aviso em caso de erro: Formato de CPF inválido!
 
 
@@ -98,10 +101,10 @@ Este campo é onde devemos digitar o valor do recibo.
 	Descrição: Valor deve ser dado em Reais e sempre positivo. Caso necessário, utilize o separador ponto. Se o evento for gratuito, digite 0.
 
 	Validada por uma expressão regular* do tipo: correspondente à 
-	```spreadsheet
+	​```spreadsheet
 	^([1-9]{1}[\d]{0,2}(\.[\d]{2})*(\.[\d]{0,2})?|[1-9]{1}[\d]{0,}(\.[\d]{0,2})?|0(\.[\d]{0,2})?|(\.[\d]{1,2})?)$
-	```
-
+	​```
+	
 	Mensagem de aviso em caso de erro: Utilize o padrão 00.00
 
 
@@ -120,9 +123,9 @@ Campo para o E-mail da pessoa que receberá o recibo.
 	Descrição: Insira o e-mail para o qual o recibo será enviado.
 
 	Validada por uma expressão regular* do tipo: correspondente à:
-	```spreadsheet
+	​```spreadsheet
 	[a-zA-Z0-9_\.\+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-\.]+
-	```
+	​```
 	
 	Mensagem de aviso em caso de erro: Digite um e-mail válido.
 
