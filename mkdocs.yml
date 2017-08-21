@@ -19,8 +19,8 @@ extra:
   feature:
     tabs: false
   palette:
-    primary: indigo
-    accent: indigo
+    primary: blue
+    accent: blue
 
 # Extensions
 markdown_extensions:
@@ -46,7 +46,7 @@ pages:
   - Início: index.md
   - Scripts: scripts.md
   - Implementação e manutenção:
-    - Conceitos básicos: Manutenção.md
+    - Conceitos básicos: Manutencao.md
     - Recibos: m_recibo.md
   - Changelog:
     - Movimentações: ChangeLog-movimentacoes.md
