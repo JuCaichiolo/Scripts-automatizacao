@@ -45,10 +45,13 @@ markdown_extensions:
 pages:
   - Início: index.md
   - Scripts: scripts.md
+  - Implementação e manutenção:
+    - Conceitos básicos: 
+    - Recibos: m_recibo.md
+  - Changelog:
     - Movimentações: ChangeLog-movimentacoes.md
     - Recibos: ChangeLog-recibos.md
     - Agenda: ChangeLog-agenda.md 
-  - Recibos: m_recibo.md
 
 
 
