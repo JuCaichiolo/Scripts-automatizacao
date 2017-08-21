@@ -243,7 +243,7 @@ var texto = exemplo
 texto.right(3);
 ```
 
-**Funçao pad(x,y)**
+#### Funçao pad(x,y)
 ```js
 function pad(number, length) {
     var str = '' + number;
@@ -257,14 +257,16 @@ function pad(number, length) {
 Ela serve para escrever um número sempre utilizando um numero x de casas.
 
 No exemplo aplicado abaixo a saida é "0006". 
+
 ```js
 pad(6,4) 
 ```
 
-// ---------------------------------------------------------------------------
-// Funções para para escrever um número por extenso 
-// ---------------------------------------------------------------------------
-???+ "Abra o código"
+#### Funçao Extenso(x,y)
+
+Escreve um número por extenso em português.
+
+???+ summary "Abra o código"
     ```js
     function Extenso(n, moeda, moedas, centavo, centavos) {
     var j, x, m, r, ri, rd, d, i, casas, erro;
@@ -462,9 +464,16 @@ pad(6,4)
         return r;
     }
     ```
-// ---------------------------------------------------------------------------
-// Funções principal do meu programa
-// ---------------------------------------------------------------------------
+
+
+Ela serve para escrever um número por extenso.
+
+No exemplo aplicado abaixo a saida é "cento e cinco". 
+``` js
+Extenso(105)
+```
+
+#### Funções principal do meu programa
 
 function send_Rec_Email() {
     // ID do modelo recibo no Google Docs
