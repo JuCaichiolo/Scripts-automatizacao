@@ -28,7 +28,6 @@ Para modificar a senha você deve moficar a parte textual do validador. Os simbo
 Neste Campo selecionarei o motivo gerador do recibo, ou seja o que o destinatário do recibo está adquirindo. 
 
 !!! note
-
 Titulo do campo: Referente à (ao):
 Tipo de campo: Lista suspensa
 
