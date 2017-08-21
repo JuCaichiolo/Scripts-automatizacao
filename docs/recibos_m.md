@@ -267,7 +267,7 @@ pad(6,4)
 Está função foi desenvolvida pelo Marcelo Camargo e copiada deste [link](https://productforums.google.com/forum/?nomobile=true#!topic/docs-pt/5dZ-BxqBoP4;context-place=topicsearchin/docs-pt/EXTENSO%7Csort:date)
 
 
-???+ note "Abra para ver o código da função"
+??? note "Abra para ver o código da função"
     ```js
     function Extenso(n, moeda, moedas, centavo, centavos) {
     var j, x, m, r, ri, rd, d, i, casas, erro;
@@ -478,7 +478,7 @@ Extenso(105)
 
 Está função é a função que trata os dados do formulário para gerar o recibo e enviar suas copias para o destinatário e para uma pasta do driver. Por ela ser uma funçao muito grande irei fragmenta-lá e explicar a passo como construir ela.
 
-???+ note "Abra para ver o código da função completo"
+??? note "Abra para ver o código da função completo"
     ``` js
     function send_Rec_Email() {
         // ID do modelo recibo no Google Docs
