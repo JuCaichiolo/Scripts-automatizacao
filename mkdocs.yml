@@ -41,7 +41,8 @@ markdown_extensions:
   - pymdownx.superfences
   - pymdownx.tasklist(custom_checkbox=true)
   - pymdownx.tilde
-
+  - pymdownx.details
+  
 pages:
   - Início: index.md
   - Scripts: scripts.md
