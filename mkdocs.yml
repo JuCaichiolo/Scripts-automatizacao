@@ -72,3 +72,10 @@ extra_css:
   - extra.css
 extra_javascript:
   - extra.js
+
+extra_css:
+  - extra.css
+  - extra1.css
+extra_javascript:
+  - extra.js
+  - extra1.js
