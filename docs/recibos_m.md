@@ -226,8 +226,8 @@ O valor retornado será o número de recibos já emitidos somado a 1. Veja o Exe
 
 ## Script
 
-### Funções
-**Função right(valor)**
+
+### Função right(valor)
 
 ```js
 String.prototype.right = function() {
@@ -243,7 +243,7 @@ var texto = exemplo
 texto.right(3);
 ```
 
-#### Funçao pad(x,y)
+### Funçao pad(x,y)
 ```js
 function pad(number, length) {
     var str = '' + number;
@@ -262,7 +262,7 @@ No exemplo aplicado abaixo a saida é "0006".
 pad(6,4) 
 ```
 
-#### Funçao Extenso(x)
+### Funçao Extenso(x)
 
 Está função foi desenvolvida pelo Marcelo Camargo e copiada deste [link](https://productforums.google.com/forum/?nomobile=true#!topic/docs-pt/5dZ-BxqBoP4;context-place=topicsearchin/docs-pt/EXTENSO%7Csort:date)
 
@@ -474,7 +474,7 @@ No exemplo aplicado abaixo a saida é "cento e cinco".
 Extenso(105)
 ```
 
-#### Funções principal do meu programa
+### Funções principal do meu programa
 
 Está função é a função que trata os dados do formulário para gerar o recibo e enviar suas copias para o destinatário e para uma pasta do driver. Por ela ser uma funçao muito grande irei fragmenta-lá e explicar a passo como construir ela.
 
@@ -672,7 +672,7 @@ Está função é a função que trata os dados do formulário para gerar o reci
     }
     ```
 
-##### Acessando os documentos necessários.
+#### Acessando os documentos necessários.
 
 A primeira coisa que devemos fazer em nossa função é definir quais são os documentos que vamos utilizar durante o processo.
 
