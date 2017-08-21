@@ -1,25 +1,14 @@
----
-layout: page
-title: Recibo
-menu: Recibo
-parent: Manutencao.md
-weight: 0
----
-{% include toc %}
-
 # Estrutura do Documento
-
 Para o devido funcionamento deste script é necessario de 4 arquivos
  - Uma "Formulário Google". - Ele servirá de entrada de dados do sistema é o unico "arquivo" que o usuário final terá acesso.
  - Uma "Planilha Google" - Ela é seu banco de dados, aqui serão depositadas todas as respostas do seu formulário, é onde serão feitas algumas operações necessarias e o script que fará as funções mais avançadas é criado nesta planilha.
  - Um Script. - Ele é criado diretamente na planilha, ele é responsável pelas interações entre APIs do Google.
  - Um "Documentos Google". - Ele é o modelo utilizado para gerar o recibo propriamente dito.
 
-# O formulário
+## O formuário
 
 Devido a necessidade de modificações constantes (adicionar ou retirar itens) deste formulário optou-se pela utilização de um "Formumário Google", pois com ele é facil modificar o conteúdo dos seus campos.
 Todos os campos do formulário são de preenchimento obrigatório.
-
 
 ## Senha de acesso:
 Este campo é um campo de validação necessário para garantir que apenas membros do IEEE possam utilizar o formulário:

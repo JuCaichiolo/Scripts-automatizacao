@@ -1,13 +1,54 @@
+# Project information
 site_name: Scripts IEEE UFABC
+site_description: Documentação dos Scripts de Automatização de Processos do IEEE UFABC
+site_author: Adson Batista
+site_url: https://github.com/AdsonBatista/Scripts-automatizacao/
+
+# Repository
+repo_name: AdsonBatista/Scripts-automatizacao
+repo_url: https://github.com/AdsonBatista/Scripts-automatizacao
+
+# Copyright
+copyright: 'Copyright &copy; 2016 - 2017 Adson Batista'
+
+# Theme directory
+theme_dir: material
+
+# Options
+extra:
+  feature:
+    tabs: false
+  palette:
+    primary: indigo
+    accent: indigo
+
+# Extensions
+markdown_extensions:
+  - markdown.extensions.admonition
+  - markdown.extensions.codehilite(guess_lang=false)
+  - markdown.extensions.def_list
+  - markdown.extensions.footnotes
+  - markdown.extensions.meta
+  - markdown.extensions.toc(permalink=true)
+  - pymdownx.arithmatex
+  - pymdownx.betterem(smart_enable=all)
+  - pymdownx.caret
+  - pymdownx.critic
+  - pymdownx.inlinehilite
+  - pymdownx.magiclink
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences
+  - pymdownx.tasklist(custom_checkbox=true)
+  - pymdownx.tilde
+
 pages:
   - "Início": "index.md"
   - Scripts:
     - "Movimentações": "Scripts/movimentacoes.md"
     - "Recibos": "Scripts/recibos.md" 
     - "Agenda": "Scripts/agenda.md" 
-theme: jekyll-materialdocs
-extra_javascript:
-  - extra.js
-extra_css:
-  - extra.css
-repo_url: https://github.com/AdsonBatista/Scripts-automatizacao
+  - "Recibos": m_recibo.md
+
+
+
