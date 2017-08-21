@@ -69,6 +69,6 @@ pages:
       - ChangeLog: agenda_c.md 
 
 extra_css:
-  - extra-9b4c72abee.css
+  - extra.css
 extra_javascript:
-  - extra-449b50d2b3.js
+  - extra.js
