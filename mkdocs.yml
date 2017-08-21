@@ -47,7 +47,7 @@ pages:
   - Scripts:
     - Movimentações: ChangeLog-movimentacoes.md
     - Recibos: ChangeLog-recibos.md
-    - Agenda: SChangeLog-agenda.md 
+    - Agenda: ChangeLog-agenda.md 
   - Recibos: m_recibo.md
 
 
