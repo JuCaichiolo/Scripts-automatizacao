@@ -10,7 +10,7 @@ Para o devido funcionamento deste script é necessario de 4 arquivos
 Devido a necessidade de modificações constantes (adicionar ou retirar itens) deste formulário optou-se pela utilização de um "Formumário Google", pois com ele é facil modificar o conteúdo dos seus campos.
 Todos os campos do formulário são de preenchimento obrigatório.
 
-## Senha de acesso:
+### Senha de acesso:
 Este campo é um campo de validação necessário para garantir que apenas membros do IEEE possam utilizar o formulário:
 
 ```
@@ -24,7 +24,7 @@ Para modificar a senha você deve moficar a parte textual do validador. Os simbo
 
 ![senha](https://drive.google.com/uc?id=0B8CcpExpMKFlZkloaGN4bHpJdjQ)
 
-## Referente à:
+### Referente à:
 Neste Campo selecionarei o motivo gerador do recibo, ou seja o que o destinatário do recibo está adquirindo. 
 
 ```
@@ -36,7 +36,7 @@ Para adicionar um campo basta digitar o produto na linha "Adicionar opção". É
 
 ![referentea](https://drive.google.com/uc?id=0B8CcpExpMKFlZmROSmNpTjFZZjg)
 
-## Unidade Responsável:
+### Unidade Responsável:
 Campo em que é será selecionada a unidade que está recebendo do dinheiro referente ao recibo.
 
 ```
@@ -46,7 +46,7 @@ Tipo de campo: Lista suspensa
 
 Para adicionar um campo basta digitar o produto na linha "Adicionar opção". É de extrema importência que utilizem apenas as siglas da unidade para referenciar ela. Para remover um campo basta clicar no "X" que está à direita. 
 
-## Nome Completo
+### Nome Completo
 
 Local onde deverá ser preenchido o nome completo da pessoa que receberá o recibo.
 
@@ -58,7 +58,7 @@ Tipo de campo: Resposta curta
 ![nomecompleto](https://drive.google.com/uc?id=0B8CcpExpMKFlOUROVVB0cXhReUk)
 
 
-## CPF
+### CPF
 
 Campo para registro dos numéros do CPF da pessoa que adquiriu que receberá o recibo.
 
@@ -74,7 +74,7 @@ Mensagem de aviso em caso de erro: Formato de CPF inválido!
 
 A expressão regular me diz para escrever 11 digitos numéricos qualquer coisa diferente disso ela me retornará a mensagem de erro.
 
-## Valor
+### Valor
 
 Este campo é onde devemos digitar o valor do recibo.
 
@@ -90,7 +90,7 @@ Mensagem de aviso em caso de erro: Utilize o padrão 00.00
 
 A expressão regular deste campo me permite digitar numeros de até duas casas decimais separados por ponto.
 
-## E-mail
+### E-mail
 Campo para o E-mail da pessoa que receberá o recibo.
 
 ```
@@ -103,7 +103,7 @@ Mensagem de aviso em caso de erro: Digite um e-mail válido.
 
 ![email](https://drive.google.com/uc?id=0B8CcpExpMKFlQ3BnWlFVRU4yNmM)
 
-# A Planilha Google
+## A Planilha Google
 
 A planilha de respostas deve ser vinculáda ao formulário! Para fazer isso vá na aba respostas do seu form e clique nos tres pontinhos mostrado na figura abaixo.
 
@@ -117,12 +117,12 @@ A planilha criada (ou a aba da nova planilha) deve ser assim:
 
 ![planilhacriada](https://drive.google.com/uc?id=0B8CcpExpMKFlY0VPNjJ5RUdUejA)
 
-## Renomeie a pasta de trabalho!
+### Renomeie a pasta de trabalho!
 Troque o nome da sua pasta de trabalho para "Recibos", para fazer isso clique com botão direito sobre o nome da pasta de trabalho e vá em renomear.
 
 ![novonomepasta](https://drive.google.com/uc?id=0B8CcpExpMKFlbTBnVjhfZUpObVE)
 
-## Campo ID
+### Campo ID
 Vá insira uma nova coluna a esquerda da coluna "A" (clique na celula "A" com botão direito e vá em incerir coluna à esquerda)
 
 ![criarcampoID](https://drive.google.com/uc?id=0B8CcpExpMKFlMDFRV0lUbVRVakE)
@@ -130,7 +130,7 @@ Vá insira uma nova coluna a esquerda da coluna "A" (clique na celula "A" com bo
 Na nova A1 agora vazia escreva a palavra "ID". Sua nova planilha deve ficar assim:
 
 ![resultadocampoID](https://drive.google.com/uc?id=0B8CcpExpMKFlRUJkWFBtX3FlMm8)
-## Data e Hora
+### Data e Hora
 Crie uma nova coluna C de forma que a coluna B seja o "Carimbo de data/hora" e a coluna "D" seja a "Digite a senha de acesso:" na selula B1 digite a segunte formula:
 
 ![novacolunaC](https://drive.google.com/uc?id=0B8CcpExpMKFlN2x4RXRBTWdENVE)
@@ -141,12 +141,12 @@ Crie uma nova coluna C de forma que a coluna B seja o "Carimbo de data/hora" e a
 
 Essa formula é responsabel por retirar pegar da Data da coluna B e transformar ela num texto com o seguinte formato: "1 de janeiro de 1900 às 00h00."
 
-## E-Mail
+### E-Mail
 O campo E-mail deve estar agora na coluna J. Você vai incerir 4 novas colunas a esqueda deste campo fazendo assim que seu campo e-mail vá para coluna "N".
 
 ![novocampoEmail](https://drive.google.com/uc?id=0B8CcpExpMKFlSUhQVEptUjlvRmc)
 
-## Tipo de Transação
+### Tipo de Transação
 Na Coluna "J" (que deveria estar vazia) vá até a celula K1 e digite: 
 
 ```
@@ -155,7 +155,7 @@ Na Coluna "J" (que deveria estar vazia) vá até a celula K1 e digite:
 
 Assim para cada valor linha que for preenchida na planilha voce irá dizer que é uma "Entrada de Caixa"
 
-## Valor pago em Reais
+### Valor pago em Reais
 
 Na celula K1 digete a seguinte formula, (a coluna L deve estar vazia)
 ```
@@ -164,20 +164,20 @@ Na celula K1 digete a seguinte formula, (a coluna L deve estar vazia)
 
 Ela formata os valores de I (Compo "Valor pago em Reais:" do formulário) para formato monetário.
 
-## Ano
+### Ano
 Na Celula L1 digite a formula abaixo para extrair o ANO em que foi emitido o recibo.
 
 ```
 =arrayFormula(IF(ROW(INDIRECT("B1:B" & TEXT(COUNTA(B:B);"#")))=1;"Ano";YEAR(B1:B)))
 ```
 
-## Mes
+### Mes
 Na Celula M1 digite a formula abaixo para extrair o MES em que foi emitido o recibo.
 
 ```
 =arrayFormula(SE(LIN(INDIRETO("B1:B" & TEXTO(CONT.VALORES(B:B);"#")))=1;"Mês";TEXTO(B1:B;"MM")))
 ```
-## Pasta Administrativa
+### Pasta Administrativa
 Crie uma nova Pasta de trabalho e troque seu nome para "Pasta adm". Nesta pasta vá ate A1 e digite Unidade, de A2 até A9 o nome das unidades (Ramo, AESS, CS, CPMT, EMBS, PES, RAS ,TEMS) na celula C1 digite: "Nº de Recibos +1" em C2 copie a seguinte formula:
 
 ```
@@ -189,13 +189,11 @@ O valor retornado será o número de recibos já emitidos somado a 1. Veja o Exe
 ![pastaadm](https://drive.google.com/uc?id=0B8CcpExpMKFlYXF6MkNFS3VQalU)
 
 
-# Doc
+## Doc
 
-# Script
+## Script
 
-
-
-## Funções
+### Funções
 **Função right(valor)**
 
 ```js

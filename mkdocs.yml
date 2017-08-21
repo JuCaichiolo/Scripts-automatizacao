@@ -46,15 +46,21 @@ pages:
   - Início: index.md
   - Scripts: scripts.md
   - Projetos internos:
-    - Recibos: 
-      - Implementação e manutenção: m_recibo.md
-      - Changelog: ChangeLog-recibos.md
+    - Tesouraria:
+      - Recibos: 
+        - Funcionalidades: recibos_i.md
+        - Implementação e manutenção: recibos_m.md
+        - Melhorias: recibos_t.md
+        - Changelog: recibos_c.md
+      - Movimentações:  
+        - Funcionalidades: movimentacoes_i.md
+        #- Implementação e manutenção: movimentacoes_m.md
+        - Melhorias: movimentacoes_t.md
+        - Changelog: movimentacoes_c.md
     - Agenda: 
       - Funcionalidades: agenda_i.md
       - Melhorias: agenda_t.md
       - ChangeLog: agenda_c.md 
-    - Movimentações: 
-      - ChangeLog: ChangeLog-movimentacoes.md
 
 
 
