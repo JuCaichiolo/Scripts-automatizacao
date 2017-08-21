@@ -45,7 +45,6 @@ markdown_extensions:
 pages:
   - Início: index.md
   - Scripts: scripts.md
-  - Scripts:
     - Movimentações: ChangeLog-movimentacoes.md
     - Recibos: ChangeLog-recibos.md
     - Agenda: ChangeLog-agenda.md 
