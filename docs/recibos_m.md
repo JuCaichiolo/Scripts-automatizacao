@@ -21,7 +21,7 @@ Este campo é um campo de validação necessário para garantir que apenas membr
 
 	Validada por uma expressão regular* do tipo: 
 
-	​```spreadsheet
+	​```
 	^suasenha$
 	​```
     
@@ -80,7 +80,7 @@ Campo para registro dos numéros do CPF da pessoa que adquiriu que receberá o r
 	Descrição: Insira apenas os números CPF.
 
 	Validada por uma expressão regular do tipo: correspondente à 
-	​```spreadsheet
+	​```
 	([0-9]{11})
 	​``` 
 	
@@ -103,7 +103,7 @@ Este campo é onde devemos digitar o valor do recibo.
 	Descrição: Valor deve ser dado em Reais e sempre positivo. Caso necessário, utilize o separador ponto. Se o evento for gratuito, digite 0.
 
 	Validada por uma expressão regular* do tipo: correspondente à 
-	​```spreadsheet
+	​```
 	^([1-9]{1}[\d]{0,2}(\.[\d]{2})*(\.[\d]{0,2})?|[1-9]{1}[\d]{0,}(\.[\d]{0,2})?|0(\.[\d]{0,2})?|(\.[\d]{1,2})?)$
 	​```
 	
@@ -125,7 +125,7 @@ Campo para o E-mail da pessoa que receberá o recibo.
 	Descrição: Insira o e-mail para o qual o recibo será enviado.
 
 	Validada por uma expressão regular* do tipo: correspondente à:
-	​```spreadsheet
+	​```
 	[a-zA-Z0-9_\.\+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-\.]+
 	​```
 	
@@ -167,7 +167,7 @@ Crie uma nova coluna C de forma que a coluna B seja o "Carimbo de data/hora" e a
 
 ![novacolunaC](https://drive.google.com/uc?id=0B8CcpExpMKFlN2x4RXRBTWdENVE)
 
-```spreadsheet
+```
 =arrayFormula(SE(LIN(INDIRETO("B1:B" & TEXTO(CONT.VALORES(B:B);"#")))=1;"Data e Hora";TEXTO(DIA(B1:B);"##")&" de "& TEXTO(B1:B;"MMMM")&" de " & ANO(B1:B)&" às "&  TEXTO(HORA(B1:B);"00")&"h"&TEXTO(MINUTO(B1:B);"00")))
 ```
 
@@ -181,7 +181,7 @@ O campo E-mail deve estar agora na coluna J. Você vai incerir 4 novas colunas a
 ### Tipo de Transação
 Na Coluna "J" (que deveria estar vazia) vá até a celula K1 e digite: 
 
-```spreadsheet
+```
 =arrayFormula(IF(ROW(INDIRECT("A1:A" & TEXT(COUNTA(A:A);"#")))=1;"Tipo de transação";"Entrada"))
 ```
 
@@ -191,7 +191,7 @@ Assim para cada valor linha que for preenchida na planilha voce irá dizer que �
 
 Na celula K1 digete a seguinte formula, (a coluna L deve estar vazia)
 
-```spreadsheet
+```
 =query(A:K; "select I where I is not null format I 'R$#####0.00' ";1)
 ```
 
@@ -200,21 +200,21 @@ Ela formata os valores de I (Compo "Valor pago em Reais:" do formulário) para f
 ### Ano
 Na Celula L1 digite a formula abaixo para extrair o ANO em que foi emitido o recibo.
 
-```spreadsheet
+```
 =arrayFormula(IF(ROW(INDIRECT("B1:B" & TEXT(COUNTA(B:B);"#")))=1;"Ano";YEAR(B1:B)))
 ```
 
 ### Mes
 Na Celula M1 digite a formula abaixo para extrair o MES em que foi emitido o recibo.
 
-```spreadsheet
+```
 =arrayFormula(SE(LIN(INDIRETO("B1:B" & TEXTO(CONT.VALORES(B:B);"#")))=1;"Mês";TEXTO(B1:B;"MM")))
 ```
 
 ### Pasta Administrativa
 Crie uma nova Pasta de trabalho e troque seu nome para "Pasta adm". Nesta pasta vá ate A1 e digite Unidade, de A2 até A9 o nome das unidades (Ramo, AESS, CS, CPMT, EMBS, PES, RAS ,TEMS) na celula C1 digite: "Nº de Recibos +1" em C2 copie a seguinte formula:
 
-```spreadsheet
+```
 =CONT.SES(Recibos!F:F;A2;Recibos!L:L;"=2017")+1
 ```
 
@@ -472,14 +472,14 @@ function send_Rec_Email() {
     var recibotemplateId = "14Zlj5zwYyWHhAUnBG9dMFYTzeClIa_xvayxJsB8k_Os"
     
     // Carrega planilha ativa
-    var ss = SpreadsheetApp.getActive()
-    //var ss = SpreadsheetApp.getActiveSpreadsheet().getSheetByName("Recibos")
+    var ss = App.getActive()
+    //var ss = App.getActive().getSheetByName("Recibos")
     
     var dados = ss.getDataRange().getValues();
     var ultimaLinha = ss.getLastRow() - 1; //Pega a última linha da tabela
     
     // Defino a pasta 2 da minha planilha como ativa
-    var sheet = SpreadsheetApp.openById(submissionSSKey).getSheets()[2];
+    var sheet = App.openById(submissionSSKey).getSheets()[2];
     
     // informações da planilha
   // var datarecibo = dados[ultimaLinha]['coloque aqui o nº da coluna onde ficara o data do recibo , lembrando que a coluna A vale 0(zero)'];
