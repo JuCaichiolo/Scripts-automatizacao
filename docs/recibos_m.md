@@ -43,7 +43,7 @@ Neste Campo selecionarei o motivo gerador do recibo, ou seja o que o destinatár
 
 Para adicionar um campo basta digitar o produto na linha "Adicionar opção". É importante que o texto escrito neste campo faça sentido quando se ler a segunte frase ".... referente a(o) **OPÇÃO**". Para remover um campo basta clicar no "X" que está à direita. Na figura abaixo é possivel visualizar estas ações.
 
-[![referentea](imagens/Recibos/cr_referentea.png)](imagens/Recibos/cr_referentea.png)
+[![refetentea](imagens/Recibos/cr_refetentea.png)](imagens/Recibos/cr_refetentea.png)
 
 ### Unidade Responsável:
 Campo em que é será selecionada a unidade que está recebendo do dinheiro referente ao recibo.

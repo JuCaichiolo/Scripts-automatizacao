@@ -65,4 +65,6 @@ pages:
 
 extra_css:
   - extra.css
+extra_js:
+  - extra.js
 
