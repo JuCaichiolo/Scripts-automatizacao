@@ -45,14 +45,14 @@ markdown_extensions:
 pages:
   - Início: index.md
   - Scripts: scripts.md
-  - projetos internos:
+  - Projetos internos:
     - Recibos: 
       - Implementação e manutenção: m_recibo.md
       - Changelog: ChangeLog-recibos.md
     - Agenda: 
       - Funcionalidades: agenda_i.md
       - Melhorias: agenda_t.md
-      - ChangeLog: agenda_m.md 
+      - ChangeLog: agenda_c.md 
     - Movimentações: 
       - ChangeLog: ChangeLog-movimentacoes.md
 
